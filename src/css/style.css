@@ -1,0 +1,312 @@
+.bg-header{
+	background:url(../img/banner.png); 
+	    position: relative;
+    z-index: -1;
+    height: 100vh;
+	top:-76px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.navigation{
+	z-index: 20;
+	background: black;
+	color: white;
+	text-align: center;
+	padding: 0 20px;
+}
+.navigation{
+	position: fixed;
+	top: 0;
+	width: 100%
+}
+.navigation .form-inline button{
+	border: 2px solid white;
+	color: white;
+}
+.navigation .form-inline button:hover{
+	border: 2px solid black;
+	background: white;
+	color: black;
+}
+.nav-item a{
+	color: white;
+	font-weight: bold;
+}
+.nav-item a:hover{
+	text-shadow: 0px 2px 6px #fbfaf8;
+}
+h1, h2, h3, h5{
+	font-family: Satisfy, "Satisfy", cursive;
+}
+h1{
+	text-align: center;
+	color: white;
+	position: relative;
+	top: 50%;
+	font-weight: 500;
+
+    font-size: 50px;
+    letter-spacing: 3px;
+    text-shadow: 1px 2px 2px black;
+}
+/*card*/
+.card-text{
+	color:gray;
+	font-size: 12px;
+}
+.card-text span{
+	/*color:gray;*/
+	font-size: 16px;
+}
+.btn-primary{
+	background: white;
+	color: orange;
+	border-radius: 20px;
+	border:1px solid orange;
+}
+.btn-primary:hover{
+	background: orange;
+	color: white;
+	border-radius: 20px;
+	border:1px solid orange;
+}
+.card{
+	border:none;
+}
+.card:hover{
+	 box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	 border-radius: 5px;
+	transition: 0.3s;
+}
+.card img{
+	width: 150px;
+	position: relative;
+	left:25%;
+	margin: 20px 0;
+}
+
+.recipe p{
+
+	color: gray;
+}
+.recipe h2{
+	font-size: 65px;
+	margin-right: 10px;
+}
+.recipe-img-2{
+	z-index: 2;
+	position: relative;
+	top: -115px;
+	left: 180px;
+	width: 160px;
+	/*width: 160px;*/
+}
+.recipe-img-2 img{ }
+.recipe-img-3{
+	z-index: 2;
+	position: relative;
+	top: -440px;
+	left: -185px;
+	width: 160px;
+}
+.composition img{
+	width: 150px;
+}
+.composition h2{
+	color: orange;
+}
+.composition .back p{
+	margin: 40px 0;
+	text-transform: uppercase;
+}
+.com-h3{
+	font-size: 60px;
+	text-align: center;
+}
+.top-batton{
+	position: relative;
+	top: 30%;
+}
+.bld-p{
+	font-weight: bold;
+	font-size: 30px;
+}
+.back .btn-primary:hover{
+	background: orange;
+	color: white;
+	border-radius: 20px;
+	border:1px solid white;
+}
+.discover{
+	background: url("../img/banner2.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 200px 0;
+	background-position: center;
+}
+.discover p{
+	text-transform: uppercase;
+	color: gray;
+}
+.discover h2{
+	font-size: 65px;
+	color: black;
+	text-shadow: 1px 2px 2px black;
+	margin: 30px 0;
+}
+.discover .btn-primary{
+	background: orange;
+	color: white;
+	border-radius: 30px;
+	border:1px solid orange;
+	font-size: 12px;
+	padding: 20px 30px;
+	font-weight: bold;
+}
+.discover .btn-primary:hover{
+	background: white;
+	color: orange;
+	border-radius: 30px;
+	border:1px solid orange;
+	font-size: 12px;
+	padding: 20px 30px;
+	font-weight: bold;
+}
+.feedback h3{
+	font-size: 60px;
+	line-height: 60px;
+	font-weight: 400;
+	color: #000;
+	position: relative;
+	z-index: 0;
+	margin-bottom: 28px;
+}
+.feedback p {
+	color: gray;
+	font-size: 14px;
+}
+.feedback .carousel-indicators li{
+	border-radius: 100%;
+	width: 10px;
+	height: 10px;
+	border: 2px solid orange;
+	background: white;
+}
+.feedback .card{
+	box-shadow: none;
+
+}
+.feedback .card .card-body img{
+	position: relative;
+	top: 15%;
+	left: 5%;
+	width: 130px;
+}
+.carousel-indicators{
+	bottom: -25px;
+}
+.download-app .download_link{
+	background: white;
+	border: 1px solid lightgrey;
+	text-align: center;
+
+}
+.download-app .download_link .store h5{
+	margin: 20px 0 0 0;
+	font-family: "Roboto", sans-serif;
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 20px;
+	color: black;
+}
+.download-app .download_link i{
+	margin: 20px 10px 0 0;
+	font-size: 35px;
+	color: lightgrey;
+}
+.download-app a{
+	text-decoration: none;
+}
+.download_link:hover{
+	background: orange;
+	border: 1px solid orange;
+	color: black;
+	transition: 0.7s;
+
+}
+.download_link:hover i{
+	color: black;
+	transition: 0.3s;
+}
+.footer{
+	background: black;
+}
+.footer ul>div{
+	position: relative;
+	float: left;
+	text-align: center;
+}
+.footer ul li{
+	list-style-type: none;
+}
+.footer img{
+	height: 100px;
+	width: 100px;
+}
+.footer span{
+	color: white;
+	font-size: 14px;
+
+}
+	/*-------*/
+
+/* весь контейнер поддерживает перспективу */
+.flip-container {
+	perspective: 1000;
+}
+/* переверните сторону при проведении мышью */
+.flip-container:hover .flipper, .flip-container.hover .flipper {
+	transform: rotateY(180deg);
+}
+
+.flip-container, .front, .back {
+	width: 288px;
+	height: 394px;
+}
+
+/* здесь находится скорость перевертывания */
+.flipper {
+	transition: 1s;
+	transform-style: preserve-3d;
+
+	position: relative;
+}
+
+/* скройте обратную сторону во время переворота */
+.front, .back {
+	backface-visibility: hidden;
+	background-color: white;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+/* обратная, изначально скрытая сторона */
+.back {
+	transform: rotateY(180deg);
+	background-color: orange;
+	color: white;
+	border-radius: 5px;
+}
+.front {
+
+	border-radius: 5px;
+}
+/*----------------*/
+@font-face {
+	font-family: Satisfy; /* Гарнитура шрифта */
+	src: url(../font/Satisfy-Regular.ttf); /* Путь к файлу со шрифтом */
+}
+
+/*MEDIA*/
