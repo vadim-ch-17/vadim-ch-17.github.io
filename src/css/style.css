@@ -81,13 +81,9 @@ h1{
 }
 .card img{
 	width: 150px;
-	position: relative;
-	left:25%;
 	margin: 20px 0;
 }
-
 .recipe p{
-
 	color: gray;
 }
 .recipe h2{
@@ -100,9 +96,7 @@ h1{
 	top: -115px;
 	left: 180px;
 	width: 160px;
-	/*width: 160px;*/
 }
-.recipe-img-2 img{ }
 .recipe-img-3{
 	z-index: 2;
 	position: relative;
@@ -123,10 +117,6 @@ h1{
 .com-h3{
 	font-size: 60px;
 	text-align: center;
-}
-.top-batton{
-	position: relative;
-	top: 30%;
 }
 .bld-p{
 	font-weight: bold;
@@ -261,21 +251,18 @@ h1{
 }
 	/*-------*/
 
-/* весь контейнер поддерживает перспективу */
-.flip-container {
-	perspective: 1000;
-}
-/* переверните сторону при проведении мышью */
+
+/* переверните сторону  */
 .flip-container:hover .flipper, .flip-container.hover .flipper {
 	transform: rotateY(180deg);
 }
 
 .flip-container, .front, .back {
-	width: 288px;
+	width: 100%;
 	height: 394px;
 }
 
-/* здесь находится скорость перевертывания */
+/*  скорость перевертывания */
 .flipper {
 	transition: 1s;
 	transform-style: preserve-3d;
@@ -305,8 +292,8 @@ h1{
 }
 /*----------------*/
 @font-face {
-	font-family: Satisfy; /* Гарнитура шрифта */
-	src: url(../font/Satisfy-Regular.ttf); /* Путь к файлу со шрифтом */
+	font-family: Satisfy;
+	src: url(../font/Satisfy-Regular.ttf);
 }
 
 /*MEDIA*/
